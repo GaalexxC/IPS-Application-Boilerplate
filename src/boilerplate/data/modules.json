@@ -1,0 +1,14 @@
+{
+    "admin": {
+        "dashboard": {
+            "default_controller": "overview",
+            "protected": 0
+        }
+    },
+    "front": {
+        "boilerplate": {
+            "default_controller": "main",
+            "protected": false
+        }
+    }
+}

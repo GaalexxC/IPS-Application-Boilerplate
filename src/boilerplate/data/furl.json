@@ -1,0 +1,9 @@
+{
+	"topLevel": "boilerplate",
+	"pages": {
+		"boilerplate": {
+			"friendly": "",
+			"real": "app=boilerplate&module=boilerplate&controller=main"
+		}
+	}
+}

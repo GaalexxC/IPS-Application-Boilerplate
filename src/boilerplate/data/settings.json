@@ -1,0 +1,14 @@
+[
+    {
+        "key": "boilerplate_application_name",
+        "default": "Boilerplate"
+    },
+    {
+        "key": "boilerplate_enable",
+        "default": "0"
+    },
+    {
+        "key": "boilerplate_groups",
+        "default": ""
+    }
+]

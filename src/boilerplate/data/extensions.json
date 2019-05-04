@@ -1,0 +1,7 @@
+{
+    "core": {
+        "FrontNavigation": {
+            "Boilerplate": "IPS\\boilerplate\\extensions\\core\\FrontNavigation\\Boilerplate"
+        }
+    }
+}
