@@ -1,0 +1,16 @@
+{
+    "dashboard": {
+        "overview": {
+            "tab": "boilerplate",
+            "controller": "overview",
+            "do": "",
+            "restriction": "settings_manage"
+        },
+        "settings": {
+            "tab": "boilerplate",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage"
+        }
+    }
+}
