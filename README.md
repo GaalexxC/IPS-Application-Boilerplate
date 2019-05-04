@@ -32,7 +32,7 @@
 
 # IPS Application Boilerplate
 
-#### For IPS 4.4x develoeprs a boilerplate for Application building. A standard Application directory setup with a minimal set of files including routers, controllers , templates and dev folder for a starting base. Includes default index page for starters.
+#### For IPS 4.4x developers a simple boilerplate for Application building. A standard Application directory setup with a minimal set of files including routers, controllers , templates and dev folder for a starting base. Includes default index page for starters.
 
 ## Features
 
@@ -47,14 +47,14 @@
 
 ## Usage and Install
 
-- First create a new application in IPS developer Mode and fill in the information. Application directory will be your appication main directory name, make note of it for below.
+- First create a new application in IPS developer Mode and fill in the information. Application directory will be your appication name, make note of it for below.
 - Enter the Developer center for your application
   - Create your version typically 1.0.0 (10000)
   - Create "dashboard" in Modules-Admin (You can choose another name for this directory but make sure to update the boilerplate directory name as well as file class names)
   - Create "dashboard" in Modules-Front (You can choose another name for this directory but make sure to update the boilerplate directory name as well as file class names)
 
 - A small amount of editing on your part will get you up and running in a couple minutes
-- Rename all instances of boilerplate/Boilerplate in files and directory names to match your aplications name there arent that many
+- Rename all instances of boilerplate/Boilerplate in files and directory names to match your aplications name there arent that many. I suggest using a text app like [TextCrawler](https://www.digitalvolcano.co.uk/textcrawler.html) to do it in a second or two.
 - Files
   - Application.php [6 instances]
   - modules\front\dashboard\main.php [7 instances]
@@ -64,7 +64,7 @@
   - \dev\lang.php [23 instances]
 
 
-- Upload the contents of the boilerplate directory to your new app directory
+- Upload the contents of the src directory to your new app directory
 
 - To test, make it the default application and add a menu item for your application (Which will have a different name with your application)
 
@@ -79,7 +79,8 @@
 05/04/19
 
 - May 4 2019 1.0.0 Stable Release
-- IPS development Tools for IPS 4.4.3 developer environment
+- IPS development Tools required for IPS 4.4+ developer environment
+- Working on a simpler method to avoid all those edits and just plug and play
 - Please report and issues, feature requests, or suggestions in Issues
 
 
