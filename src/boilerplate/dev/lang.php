@@ -2,6 +2,9 @@
 
 $lang = array(
 	'__app_boilerplate'	=> "IPS Boilerplate",
+
+	'module__boilerplate_dashboard'	=> "Dashboard",
+
 	'menutab__boilerplate'	=> "IPS Boilerplate",
 	'menutab__boilerplate_icon'	=> "globe",
     'frontnavigation_boilerplate'	=> "Boilerplate",
