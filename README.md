@@ -37,32 +37,39 @@
 ## Features
 
 - Standard file and directory structure for IPS 4.4 Application development
+- Generic "dashboard" modules [Front/Admin] for starters
 - Application.php includes standard permissions, icon and FrontNavigation
 - Extensions: FrontNavigation
 - Modules Front: Main Controller
 - Modules Admin: Overview and Settings Controllers (Enable applications, group permissions, custom appplication name)
-- Data JSON: acpmenu, acpsearch, appplication, extensions, furl, modules, settings, versions [hooks, widgets, schema, themesettings or tasks not provided]
+- Data JSON: acpmenu, acpsearch, extensions, furl, modules, settings [application, hooks, widgets, schema, themesettings, tasks and version not provided]
 - dev folder: lang and html starter files. [css, js, resources, or email not provided]
 
-## Install
+## Usage and Install
 
-- Upload the boilerplate directory or import the .tar file from releases
+- First create a new application in IPS developer Mode and fill in the information. Application directory will be your appication main directory name, make note of it for below.
+- Enter the Developer center for your application
+  - Create your version typically 1.0.0 (10000)
+  - Create "dashboard" in Modules-Admin (You can choose another name for this directory but make sure to update the boilerplate directory name as well as file class names)
+  - Create "dashboard" in Modules-Front (You can choose another name for this directory but make sure to update the boilerplate directory name as well as file class names)
 
-
-## Usage
-
-- Rename all instances of boilerplate/Boilerplate in files and directory names to match your aplications name
+- A small amount of editing on your part will get you up and running in a couple minutes
+- Rename all instances of boilerplate/Boilerplate in files and directory names to match your aplications name there arent that many
 - Files
-  - Application.php
-  - modules\front\boilerplate\main.php
-  - modules\admin\dashboard\overview.php
-  - modules\admin\dashboard\settings.php
-  - extensions\core\FrontNavigation\Boilerplate.php
-  - \dev\lang.php
+  - Application.php [6 instances]
+  - modules\front\dashboard\main.php [7 instances]
+  - modules\admin\dashboard\overview.php [6 instances]
+  - modules\admin\dashboard\settings.php [22 instances]
+  - extensions\core\FrontNavigation\Boilerplate.php [10 instances plus file name]
+  - \dev\lang.php [23 instances]
 
-- Directories
-  - modules\front\boilerplate\
-  - dev\html\front\boilerplate
+
+- Upload the contents of the boilerplate directory to your new app directory
+
+- To test, make it the default application and add a menu item for your application (Which will have a different name with your application)
+
+<img src="https://www.devcu.net/mediasrc/boilerplate_admin.PNG?V=1.1" width="40%"></img>
+<img src="https://www.devcu.net/mediasrc/boilerplate_index.PNG?V=1.1" width="40%"></img>
 
 - Have fun developing!
 
