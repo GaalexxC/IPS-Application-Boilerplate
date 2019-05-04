@@ -36,17 +36,42 @@
 
 ## Features
 
-- Coming Soon...
+- Standard file and directory structure for IPS 4.4 Application development
+- Application.php includes standard permissions, icon and FrontNavigation
+- Extensions: FrontNavigation
+- Modules Front: Main Controller
+- Modules Admin: Overview and Settings Controllers (Enable applications, group permissions, custom appplication name)
+- Data JSON: acpmenu, acpsearch, appplication, extensions, furl, modules, settings, versions [hooks, widgets, schema, themesettings or tasks not provided]
+- dev folder: lang and html starter files. [css, js, resources, or email not provided]
 
 ## Install
 
-- Coming Soon...
+- Upload the boilerplate directory or import the .tar file from releases
+
+
+## Usage
+
+- Rename all instances of boilerplate/Boilerplate in files and directory names to match your aplications name
+- Files
+  - Application.php
+  - modules\front\boilerplate\main.php
+  - modules\admin\dashboard\overview.php
+  - modules\admin\dashboard\settings.php
+  - extensions/core/FrontNavigation\Boilerplate.php
+  - \dev\lang.php
+
+- Directories
+  - modules\front\boilerplate\
+  - dev\html\front\boilerplate
+
+- Have fun developing!
+
 
 ## ** Updated Notes **
 
 05/04/19
 
-- May 2019 Release
+- May 4 2019 1.0.0 Stable Release
 - IPS development Tools for IPS 4.4.3 developer environment
 - Please report and issues, feature requests, or suggestions in Issues
 
