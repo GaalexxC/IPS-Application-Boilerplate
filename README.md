@@ -57,7 +57,7 @@
   - modules\front\boilerplate\main.php
   - modules\admin\dashboard\overview.php
   - modules\admin\dashboard\settings.php
-  - extensions/core/FrontNavigation\Boilerplate.php
+  - extensions\core\FrontNavigation\Boilerplate.php
   - \dev\lang.php
 
 - Directories
