@@ -3,7 +3,7 @@
  *     Support this Project... Keep it free! Become an Open Source Patron
  *                       https://www.patreon.com/devcu
  *
- * @brief       Boilerplate Front Navigation Extension
+ * @brief       Boilerplate MAin Controller
  * @author      Gary Cornell for devCU Software Open Source Projects
  * @copyright   (c) <a href='https://www.devcu.com'>devCU Software Development</a>
  * @license     GNU General Public License v3.0
@@ -29,7 +29,8 @@
  *    You should have received a copy of the GNU General Public License
  *    along with this program.  If not, see http://www.gnu.org/licenses/
  */
-namespace IPS\boilerplate\extensions\core\FrontNavigation;
+
+namespace IPS\boilerplate\modules\front\dashboard;
 
 /* To prevent PHP errors (extending class does not exist) revealing path */
 if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
@@ -39,58 +40,43 @@ if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
 }
 
 /**
- * Front Navigation Extension: Frontpage
+ * MAIN
  */
-class _Boilerplate extends \IPS\core\FrontNavigation\FrontNavigationAbstract
+class _main extends \IPS\Dispatcher\Controller
 {
 	/**
-	 * Get Type Title which will display in the AdminCP Menu Manager
+	 * Route
 	 *
-	 * @return	string
+	 * @return	void
 	 */
-	public static function typeTitle()
+	protected function manage()
 	{
-		return \IPS\Member::loggedIn()->language()->addToStack('frontnavigation_boilerplate');
-	}
 		
-	/**
-	 * Can the currently logged in user access the content this item links to?
-	 *
-	 * @return	bool
-	 */
-	public function canAccessContent()
-	{
-		return \IPS\Member::loggedIn()->canAccessModule( \IPS\Application\Module::get( 'boilerplate', 'dashboard' ) );
+			$this->_index();
 	}
 
 	/**
-	 * Get Title
-	 *
-	 * @return	string
+	 * Return the title for the publicly viewable HTML page
+	 * 
+	 * @return string	Title to use between <title> tags
 	 */
-
-	public function title()
+	public function getHtmlTitle()
 	{
 		return \IPS\Settings::i()->boilerplate_application_name;
 	}
 
 	/**
-	 * Get Link
+	 * Show Index
 	 *
-	 * @return	\IPS\Http\Url
+	 * @return	void
 	 */
-	public function link()
+	protected function _index()
 	{
-		return \IPS\Http\Url::internal( "app=boilerplate&module=dashboard&controller=main", 'front', 'dashboard' );
-	}
-	
-	/**
-	 * Is Active?
-	 *
-	 * @return	bool
-	 */
-	public function active()
-	{
-		return !\IPS\core\FrontNavigation::$clubTabActive and \IPS\Dispatcher::i()->application->directory === 'boilerplate';
+		/* Online User Location */
+		\IPS\Session::i()->setLocation( \IPS\Http\Url::internal( 'app=boilerplate', 'front', 'dashboard' ), array(), 'loc_boilerplate_browsing' );
+		
+		/* Display */
+		\IPS\Output::i()->title  = $this->getHtmlTitle();
+		\IPS\Output::i()->output	= \IPS\Theme::i()->getTemplate( 'dashboard' )->index();
 	}
 }

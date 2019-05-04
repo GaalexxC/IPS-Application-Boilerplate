@@ -1,9 +1,9 @@
 {
 	"topLevel": "boilerplate",
 	"pages": {
-		"boilerplate": {
+		"dashboard": {
 			"friendly": "",
-			"real": "app=boilerplate&module=boilerplate&controller=main"
+			"real": "app=boilerplate&module=dashboard&controller=main"
 		}
 	}
 }

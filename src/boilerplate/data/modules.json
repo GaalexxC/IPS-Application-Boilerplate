@@ -6,7 +6,7 @@
         }
     },
     "front": {
-        "boilerplate": {
+        "dashboard": {
             "default_controller": "main",
             "protected": false
         }
