@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Stable-success.svg)](https://www.devcu.com/devcu-tracker/)
 [![Development](https://img.shields.io/badge/Development-Active-success.svg)](https://www.devcu.com/devcu-tracker/)
 [![Platform](https://img.shields.io/badge/Platform-IPS4.4+-blue.svg)](https://www.devcu.com/devcu-tracker/)
-[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/devCU/IPS-FrontPage/development.svg)](https://www.devcu.com/devcu-tracker/)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/GaalexxC/IPS-Application-Boilerplate/development.svg)](https://www.devcu.com/devcu-tracker/)
 
 ## ** Become a Patron/Supporter of devCU **
 	
