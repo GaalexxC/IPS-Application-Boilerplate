@@ -75,9 +75,9 @@
 
 ## ** Updated Notes **
 
-05/04/19
+07/25/19
 
-- May 4 2019 1.0.0 Stable Release
+- 1.0.0 Stable Release
 - IPS development Tools required for IPS 4.4+ developer environment
 - Working on a simpler method to avoid all those edits and just plug and play
 - Please report and issues, feature requests, or suggestions in Issues
