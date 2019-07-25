@@ -1,0 +1,8 @@
+{
+    "application_title": "IPS Boilerplate",
+    "app_author": "G Cornell for devCU",
+    "app_directory": "boilerplate",
+    "app_protected": 0,
+    "app_website": "https:\/\/devcu.com",
+    "app_update_check": "https:\/\/updates.devcu.com\/ips\/boilerplate\/appcheck.php"
+}

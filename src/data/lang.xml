@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="boilerplate" version="10000">
+  <word key="__app_boilerplate" js="0">IPS Boilerplate</word>
+  <word key="module__boilerplate_dashboard" js="0">Dashboard</word>
+  <word key="menutab__boilerplate" js="0">IPS Boilerplate</word>
+  <word key="menutab__boilerplate_icon" js="0">globe</word>
+  <word key="frontnavigation_boilerplate" js="0">Boilerplate</word>
+  <word key="menu__boilerplate_dashboard" js="0">Dashboard</word>
+  <word key="menu__boilerplate_boilerplate" js="0">IPS Boilerplate</word>
+  <word key="menu__boilerplate_dashboard_settings" js="0">Settings</word>
+  <word key="menu__boilerplate_dashboard_overview" js="0">Overview</word>
+  <word key="head_boilerplate_overview" js="0">Overview</word>
+  <word key="head_boilerplate_settings" js="0">Settings</word>
+  <word key="head_boilerplate_settings_custom" js="0">Customize</word>
+  <word key="boilerplate_enable" js="0">Boilerplate Enabled</word>
+  <word key="boilerplate_groups" js="0">Boilerplate Group Access</word>
+  <word key="boilerplate_application_name" js="0">Application Name</word>
+  <word key="loc_boilerplate_browsing" js="0">Browsing Boilerplate</word>
+ </app>
+</language>
